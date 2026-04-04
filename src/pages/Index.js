@@ -1,6 +1,6 @@
 import DashboardLayout from '../Components/DashboardLayout';
 import WelcomeModal from '../Components/WelcomeModal';
-import Dashboard from './Dashboard';
+import Dashboard from '../Components/Dashboard';
 
 function Index() {
   return (

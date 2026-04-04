@@ -13,7 +13,7 @@ import WelcomeModal from './Components/WelcomeModal';
 // import { TaskProvider } from './context/TaskContext';
 import Analytics from './pages/Analytics';
 import Assistant from './pages/Assistant';
-import Dashboard from './pages/Dashboard';
+import Dashboard from './Components/Dashboard';
 import Tasks from './pages/Tasks';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
