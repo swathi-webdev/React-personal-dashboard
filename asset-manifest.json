@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/swathi-webdev/React-personal-dashboard/static/css/main.c7fa8ae2.css",
+    "main.js": "/swathi-webdev/React-personal-dashboard/static/js/main.10c7a970.js",
+    "index.html": "/swathi-webdev/React-personal-dashboard/index.html",
+    "main.c7fa8ae2.css.map": "/swathi-webdev/React-personal-dashboard/static/css/main.c7fa8ae2.css.map",
+    "main.10c7a970.js.map": "/swathi-webdev/React-personal-dashboard/static/js/main.10c7a970.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7fa8ae2.css",
+    "static/js/main.10c7a970.js"
+  ]
+}
