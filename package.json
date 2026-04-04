@@ -1,8 +1,9 @@
 {
-  "homepage": "https://github.com/swathi-webdev/React-personal-dashboard",
+  "homepage": "https://swathi-webdev.github.io/React-personal-dashboard/",
   "name": "personal-dashboard",
   "version": "0.1.0",
   "private": true,
+
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
