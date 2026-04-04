@@ -48,15 +48,15 @@ body {
   transition: transform 0.3s ease;
 }
 .sidebar .nav-link {
-  color: #81acdd;
+  color: #dfe4e0;
   border-radius: 8px;
   padding: 10px 16px;
   margin-bottom: 4px;
   transition: all 0.2s;
 }
 .sidebar .nav-link:hover {
-  background-color: #1f2d3d;
-  color: #0e408b;
+  background-color: #89e4a1;
+  color: #598ad3;
 }
 .sidebar .nav-link.active {
   background-color: rgba(38, 198, 165, 0.15);
