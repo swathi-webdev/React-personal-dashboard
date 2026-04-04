@@ -37,7 +37,7 @@ body {
 .animate-fade-in-up { animation: fadeInUp 0.5s ease-out forwards; }
 .animate-scale-in { animation: scaleIn 0.3s ease-out forwards; }
 .animate-bounce-in { animation: bounceIn 0.6s cubic-bezier(0.68,-0.55,0.265,1.55) forwards; }
-.animate-slide-in-left { animation: slideInLeft 0.3s ease-out forwards; } */
+.animate-slide-in-left { animation: slideInLeft 0.3s ease-out forwards; } 
 
 /* Sidebar */
  .sidebar {
@@ -106,7 +106,7 @@ body {
 }
 .priority-card.high { background: rgba(238, 113, 113, 0.15); border-color: rgba(224,85,85,0.2); color: #e05555; }
 .priority-card.medium { background: rgba(220,180,50,0.15); border-color: rgba(220,180,50,0.2); color: #dcb432; }
-.priority-card.low { background: rgba(38,198,165,0.15); border-color: rgba(78, 10, 186, 0.2); color: #26c6a5; } */
+.priority-card.low { background: rgba(38,198,165,0.15); border-color: rgba(78, 10, 186, 0.2); color: #26c6a5; } 
 
 /* Welcome modal */
  .welcome-overlay {
