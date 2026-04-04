@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from './Components/Sidebar';
+import Sidebar from '../Components/Sidebar';
 import { Bell } from 'lucide-react';
 
 function DashboardLayout({ children }) {
