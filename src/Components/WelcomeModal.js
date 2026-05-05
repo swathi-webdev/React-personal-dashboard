@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useTasks } from '../context/TaskContext';
 import { User } from 'lucide-react';
-
 function WelcomeModal() {
   const { userName, setUserName } = useTasks();
   const [input, setInput] = useState('');

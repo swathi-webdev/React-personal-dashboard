@@ -71,7 +71,7 @@ function Analytics() {
               <BarChart data={priorityData}>
                 <XAxis dataKey="name" tick={{ fill: '#7a8a9e', fontSize: 12 }} axisLine={false} tickLine={false} />
                 <YAxis tick={{ fill: '#7a8a9e', fontSize: 12 }} axisLine={false} tickLine={false} />
-                <Tooltip contentStyle={{ backgroundColor: '#1f2d3d', border: '1px solid #253040', borderRadius: 8, color: '#d4dce8' }} />
+                <Tooltip contentStyle={{ backgroundColor: '#324153', border: '1px solid #253040', borderRadius: 8, color: '#d4dce8' }} />
                 <Bar dataKey="total" fill="#dcb432" radius={[4, 4, 0, 0]} name="Total" />
                 <Bar dataKey="done" fill="#26c6a5" radius={[4, 4, 0, 0]} name="Done" />
               </BarChart>
