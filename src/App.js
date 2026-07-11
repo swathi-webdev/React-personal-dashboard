@@ -7,7 +7,7 @@ import AnalyticsPage from './pages/AnalyticsPage';
 import AssistantPage from './pages/AssistantPage';
 import NotFound from './pages/NotFound';
 import DashboardLayout from './Components/DashboardLayout';
-import sidebar from '../src/Components/Sidebar';
+import Sidebar from './Components/Sidebar';
 import Stat from './Components/StatCard';
 import WelcomeModal from './Components/WelcomeModal';
 import { TaskProvider } from './context/TaskContext';
@@ -29,14 +29,14 @@ function App() {
           <Route path="/assistant" element={<AssistantPage />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/dashboardLayout" element={<DashboardLayout />} />
-          <Route path="/sidebar"element={<sidebar/>}/>
+          <Route path="/sidebar"element={<Sidebar/>}/>
           <Route path="/stat" element={<Stat />} />
           <Route path="/welcomeModal" element={<WelcomeModal />} />
           {/* <Route path="/taskContext" element={<TaskContext />} /> */}
           <Route path="/Analytics" element={<Analytics />} />
           <Route path="/Assistant" element={<Assistant />} />
           <Route path="/Dashboard" element={<Dashboard />} />
-          <Route path="/tasks" element={<Tasks />} />
+          {/* <Route path="/tasks" element={<Tasks />} /> */}
           {/* <Route path="assistantpage" element={<AssistantPage />} /> */}
         </Routes>
       </BrowserRouter>
