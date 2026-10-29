@@ -21,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <TaskProvider>
-      <BrowserRouter basename='/React-personal-dashboard'>
+      <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tasks" element={<TasksPage />} />
